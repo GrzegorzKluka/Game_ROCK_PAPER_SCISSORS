@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+  <title>GAME ROCK PAPER SCISSORS</title>
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center">
+    Welcome to the game
+    <span class="label label-default text-center d-inline-block">Rock</span>
+    <span class="label label-info text-center d-inline-block">Paper</span>
+    <span class="label label-danger text-center d-inline-block">Scissors</span>
+  </h1>
+</div>
+<div id="js-newGameElement" class="container">
+  <div class="row text-center">
+    <button  id="js-newGameButton" class="btn btn-default">
+      START NEW GAME
+    </button>
+  </div>
+</div>
+<div id="js-resultsTableElement" class="container">
+  <div class="row">
+    <div class="col-xs-5 text-center">
+      <span id="js-playerPoints" class="badge">
+      0
+      </span>
+      <span id="js-playerName">
+      Player Name
+      </span>
+    </div>
+    <div class="col-xs-2 text-center">
+      VS.
+    </div>
+    <div class="col-xs-5 text-center">
+      <span id="js-computerPoints" class="badge">
+      0
+      </span>
+      Computer
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-5 text-center">
+      <span id="js-playerPick">
+        Player selection
+      </span>
+    </div>
+    <div class="col-xs-2"></div>
+    <div class="col-xs-5 text-center">
+      <span id="js-computerPick">
+        Computer selection
+      </span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-5 text-center">
+      <span id="js-playerResult">
+        Player Score
+      </span>
+    </div>
+    <div class="col-xs-2"></div>
+    <div class="col-xs-5 text-center">
+      <span id="js-computerResult">
+        Computer Score
+      </span>
+    </div>
+  </div>
+</div>
+<div id="js-playerPickElement" class="container">
+  <div class="row text-center">
+    <div class="col-sm-4 choose rock">
+      <button id="js-playerPick_rock" class="btn">
+        <img src="https://i.imgur.com/qHWU4jI.png" alt="rock" height="200px"><br>
+        <span class="label label-default d-block">Rock</span>
+      </button>
+    </div>
+    <div class="col-sm-4 choose paper">
+      <button id="js-playerPick_paper"  class="btn">
+        <img src="https://i.imgur.com/Qz2DsxE.png" alt="paper" height="200px"><br>
+        <span class="label label-info d-block">Paper</span>
+      </button>
+    </div>
+    <div class="col-sm-4 choose scissors">
+      <button id="js-playerPick_scissors"  class="btn">
+        <img src="https://i.imgur.com/2GbnmAf.png" alt="scissors" height="200px"><br>
+        <span class="label label-danger d-block">Scissors</span>
+      </button>
+    </div>
+  </div>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

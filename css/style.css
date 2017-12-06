@@ -1,0 +1,72 @@
+body {
+  margin: 10px;
+  background-color: #AAA739;
+  color: #131200;
+    
+}
+.container {
+  padding: 20px;
+  padding-bottom: 30px;
+}
+.label {
+  font-size: 27px;
+}
+.btn {
+  background-color: #AAA739;
+  font-size: 25px;
+}
+.btn-default {
+  margin-top: 50px;
+  font-weight: 600;
+  line-height: 2;
+  border: 5px solid;
+  color: #FFF;
+  background-color: #5F5C09;
+  border-color: #FFFED1;
+}
+.btn-default:hover {
+  color: #131200;
+  background-color: #F6F38F;
+  border-color: #FFFED1;
+  border: 5px solid;
+}
+.btn-default:focus {
+  color: #131200;
+  background-color: #F6F38F;
+  border-color: #FFFED1;
+  border: 5px solid;
+}
+.btn-default:hover:active {
+  color: #131200;
+  background-color: #F6F38F;
+  border-color: #FFFED1;
+  border: 5px solid;
+}
+.choose span {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+#js-playerPick_rock:hover {
+  background-color: #777777;
+}
+#js-playerPick_paper:hover {
+  background-color: #5BC0DE;
+}
+#js-playerPick_scissors:hover {
+  background-color: #D9534F;
+}
+#js-resultsTableElement {
+  font-size: 25px;
+  padding: 50px;
+}
+.choose span {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+.badge {
+  font-size: 30px;
+}
